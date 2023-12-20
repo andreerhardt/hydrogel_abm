@@ -1,1 +1,1 @@
-# hydrogel_abm
+# Hydrogels and agent-based models (ABM) for cell durotaxis
