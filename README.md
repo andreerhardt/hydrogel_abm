@@ -1,6 +1,8 @@
 # 1. Hydrogels and agent-based models (ABM) for cell durotaxis
 
+DOI:
 Scope:
+Authors:
 
 # 2. Software
 
