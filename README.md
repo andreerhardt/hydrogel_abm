@@ -1,8 +1,11 @@
 # 1. Hydrogels and agent-based models (ABM) for cell durotaxis
 
 DOI:
-Scope:
-Authors:
+
+Authors: Andre Erhardt, Dirk Peschka, Leonie Schmeller
+
+Scope: We develop a 3D mathematical model framework for the collective evolution of cell populations by an agent-based model (ABM) that mechanically interacts with the surrounding extracellular matrix (ECM) modeled as a hydrogel. In this software repository the Python code for the ABM coupled with the FEniCS code for the hydrogel are stored and documented together with the input files needed to reproduce the simulations of the paper referenced above. In order to run it requires Python with legacy FEniCS 2019.1.0 and some standard libraries for plotting and data processing.
+
 
 # 2. Software
 
