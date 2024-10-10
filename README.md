@@ -1,17 +1,54 @@
-# 1. Hydrogels and agent-based models (ABM) for cell durotaxis
+In this Python software repository the code to reproduce data and images from the paper
 
-DOI:
+<h1>Modeling cellular self-organization in strain-stiffening hydrogels</h1>
 
-Authors: Andre Erhardt, Dirk Peschka, Leonie Schmeller
+by
 
-Scope: We develop a 3D mathematical model framework for the collective evolution of cell populations by an agent-based model (ABM) that mechanically interacts with the surrounding extracellular matrix (ECM) modeled as a hydrogel. In this software repository the Python code for the ABM coupled with the FEniCS code for the hydrogel are stored and documented together with the input files needed to reproduce the simulations of the paper referenced above. In order to run it requires Python with legacy FEniCS 2019.1.0 and some standard libraries for plotting and data processing.
+A. H. Erhardt, D. Peschka, C. Dazzi, L. Schmeller, A. Petersen, S. Checa, A. Münch, B. Wagner (2024). [10.1007/s00466-024-02536-7](https://doi.org/10.1007/s00466-024-02536-7)
 
+is stored.
 
-# 2. Software
+**Abstract:**  We derive a three-dimensional hydrogel model as a two-phase system of a fibre network and liquid solvent, where the
+nonlinear elastic network accounts for the strain-stiffening properties typically encountered in biological gels. We use this
+model to formulate free boundary value problems for a hydrogel layer that allows for swelling or contraction. We derive
+two-dimensional plain-strain and plain-stress approximations for thick and thin layers respectively, that are subject to external
+loads and serve as a minimal model for scaffolds for cell attachment and growth. For the collective evolution of the cells as
+they mechanically interact with the hydrogel layer, we couple it to an agent-based model that also accounts for the traction
+force exerted by each cell on the hydrogel sheet and other cells during migration. We develop a numerical algorithm for the
+coupled system and present results on the influence of strain-stiffening, layer geometry, external load and solvent in/outflux
+on the shape of the layers and on the cell patterns. In particular, we discuss alignment of cells and chain formation under
+varying conditions.
 
-## 2.1 Stretching
-## 2.2 2D vs 3D
-## 2.3 Cell-ECM interaction
-## 2.4 High-resolution simulations
+**Dependencies:** Requires Python with legacy FEniCS 2019.1.0 and some standard libraries for plotting and data processing.
 
-# 3. Data
+<h3>Hydrogel and cell coupling</h3>
+
+Folder: `./abm_hydrogel`
+
+Figures:
+
+Usage:
+
+<h3>ABM single and double cell interaction</h3>
+
+Folder: `./abm_interaction`
+
+Figures:
+
+Usage:
+
+<h3>Pure elastic material and hydrogel (no cells)</h3>
+
+Folder: `./elastic_hydrogel`
+
+Figures:
+
+Usage:
+
+<h3>Highly resolved single cells</h3>
+
+Folder: `./highres_singlecell`
+
+Figures:
+
+Usage:
