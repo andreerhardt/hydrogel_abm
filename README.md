@@ -1,6 +1,10 @@
 ## Modeling cellular self-organization in strain-stiffening hydrogels
 
-In this Python software repository the code to reproduce data and images from the paper **Modeling cellular self-organization in strain-stiffening hydrogels** by *A. H. Erhardt, D. Peschka, C. Dazzi, L. Schmeller, A. Petersen, S. Checa, A. Münch, B. Wagner* in Computational Mechanics (Springer, published online 2024). [10.1007/s00466-024-02536-7](https://doi.org/10.1007/s00466-024-02536-7)
+In this Python software repository the code to reproduce data and images from the paper 
+
+**Modeling cellular self-organization in strain-stiffening hydrogels** 
+
+by *A. H. Erhardt, D. Peschka, C. Dazzi, L. Schmeller, A. Petersen, S. Checa, A. Münch, B. Wagner* in Computational Mechanics (Springer, published online 2024). [10.1007/s00466-024-02536-7](https://doi.org/10.1007/s00466-024-02536-7)
 
 is stored.
 
