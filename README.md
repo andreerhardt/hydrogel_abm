@@ -27,12 +27,7 @@ Folder: `./abm_hydrogel`
 
 Data: Generates data for Fig. 12,13,14,15,16 in the manuscript.
 
-Usage: With each of the json files 
-
-`run_elastic_NH_abm.json,run_elastic_NH_abm_plane_strain.json,run_hydro_NH_abm_AC.json,run_hydro_NH_stretched_AC_05.json,
-run_hydro_gent_abm_AC.json,run_hydro_gent_abm_CH.json,run_hydro_gent_stretched_AC_05.json`
-
-run the command 
+Usage: With each of the json files in the folder run the command 
 
 `python3 main_ABM_Allen_Cahn_Hilliard.py JSONFILENAME.json`
 
@@ -44,12 +39,7 @@ Folder: `./abm_interaction`
 
 Data: Generates data for Fig. 17,18,19 in the manuscript.
 
-Usage: With each of the json files
-
-`run_nh_hydro_stress_stretched.json,run_nh_strain.json,run_nh_strain_medpull.json,run_nh_strain_shortpull.json,run_nh_stress.json,
-run_nh_stress_medpull.json,run_nh_stress_shortpull.json,run_nh_stress_stretched.json`
-
-run 
+Usage: With each of the json files in the folder run the command 
 
 `python3 main_interaction.py JSONFILENAME.json`
 
@@ -63,7 +53,11 @@ Folder: `./elastic_hydrogel`
 
 Data: Generates data for Fig. 6,7,8,9 in the manuscript.
 
-Usage:
+Usage: With each of the json files in the folder run the command 
+
+`python3 main_stretching_Allen_Cahn_Hilliard.py JSONFILENAME.json`
+
+to generate the corresponding output data. Then call `python3 plot_fig_{6,7,8,9}.py` to generate the corresponding plot in the manuscript.
 
 <h3>Highly resolved single cells</h3>
 
@@ -71,5 +65,8 @@ Folder: `./highres_singlecell`
 
 Data: Generates data for Fig. 20 in the manuscript.
 
+Usage: With each of the json files in the folder run the command 
 
-Usage:
+`python3 main_singlecell.py JSONFILENAME.json`
+
+or the corresponding Linux shell script `run.sh`. Then run `python3 main_plothighlight.py JSONFILENAME.json` or the corresponding shell script `gen_plots.sh` to generate the figure.
