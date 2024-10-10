@@ -58,7 +58,7 @@ to generate the corresponding data or directly run the Linux `run0.sh` and `run1
 
 `python3 main_stretching_Allen_Cahn_Hilliard.py JSONFILENAME.json`
 
-to generate the corresponding output data. Then call `python3 plot_fig_{6,7,8,9}.py` to generate the corresponding plot in the manuscript.
+to generate the corresponding output data. Some intermediate ouput data is creater by running `python3 main_stretching_postprocessing.py`. Finally, call `python3 plot_fig_{6,7,8,9}.py` to generate the corresponding plot in the manuscript.
 
 <h3>Highly resolved single cells</h3>
 
