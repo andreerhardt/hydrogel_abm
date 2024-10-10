@@ -1,6 +1,6 @@
 In this Python software repository the code to reproduce data and images from the paper
 
-<h1>Modeling cellular self-organization in strain-stiffening hydrogels</h1>
+<h2>Modeling cellular self-organization in strain-stiffening hydrogels</h2>
 
 by
 
@@ -23,9 +23,9 @@ varying conditions.
 
 <h3>Hydrogel and cell coupling</h3>
 
-Folder: `./abm_hydrogel`
+**Folder:** `./abm_hydrogel`
 
-Data: Generates data for Fig. 12,13,14,15,16 in the manuscript.
+**Data:** Generates data for Fig. 12,13,14,15,16 in the manuscript.
 
 Usage: With each of the json files in the folder run the command 
 
@@ -35,11 +35,11 @@ to generate the corresponding data in an output folder. Then use the ... to gene
 
 <h3>ABM single and double cell interaction</h3>
 
-Folder: `./abm_interaction`
+**Folder:** `./abm_interaction`
 
-Data: Generates data for Fig. 17,18,19 in the manuscript.
+**Data:** Generates data for Fig. 17,18,19 in the manuscript.
 
-Usage: With each of the json files in the folder run the command 
+**Usage:** With each of the json files in the folder run the command 
 
 `python3 main_interaction.py JSONFILENAME.json`
 
@@ -49,11 +49,11 @@ to generate the corresponding data or directly run the Linux `run0.sh` and `run1
 
 <h3>Pure elastic material and hydrogel (no cells)</h3>
 
-Folder: `./elastic_hydrogel`
+**Folder:** `./elastic_hydrogel`
 
-Data: Generates data for Fig. 6,7,8,9 in the manuscript.
+**Data:** Generates data for Fig. 6,7,8,9 in the manuscript.
 
-Usage: With each of the json files in the folder run the command 
+**Usage:** With each of the json files in the folder run the command 
 
 `python3 main_stretching_Allen_Cahn_Hilliard.py JSONFILENAME.json`
 
@@ -61,11 +61,11 @@ to generate the corresponding output data. Then call `python3 plot_fig_{6,7,8,9}
 
 <h3>Highly resolved single cells</h3>
 
-Folder: `./highres_singlecell`
+**Folder:** `./highres_singlecell`
 
-Data: Generates data for Fig. 20 in the manuscript.
+**Data:** Generates data for Fig. 20 in the manuscript.
 
-Usage: With each of the json files in the folder run the command 
+**Usage:** With each of the json files in the folder run the command 
 
 `python3 main_singlecell.py JSONFILENAME.json`
 
