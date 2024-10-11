@@ -27,7 +27,7 @@ varying conditions.
 **Figure:** Single horizontal cell pulling on an elastic Gent-type material. The shading shows the corresponding solvent concentration.
 
 
-<h3>Hydrogel and cell coupling</h3>
+### Hydrogel and cell coupling
 
 **Folder:** `./abm_hydrogel`
 
@@ -39,7 +39,7 @@ Usage: With each of the json files in the folder run the command
 
 to generate the corresponding data in an output folder. Then use the ... to generate the output.
 
-<h3>ABM single and double cell interaction</h3>
+### ABM single and double cell interaction
 
 **Folder:** `./abm_interaction`
 
@@ -53,7 +53,7 @@ to generate the corresponding data or directly run the Linux `run0.sh` and `run1
 
 `python3 main_plotter.py JSONFILENAME.json` and `python3 main_plotter_stretch.py JSONFILENAME.json` to generate the corresponding output files in the undeformed and deformed configuration, respectively.
 
-<h3>Pure elastic material and hydrogel (no cells)</h3>
+### Pure elastic material and hydrogel (no cells)
 
 **Folder:** `./elastic_hydrogel`
 
@@ -65,7 +65,7 @@ to generate the corresponding data or directly run the Linux `run0.sh` and `run1
 
 to generate the corresponding output data. Some intermediate ouput data is creater by running `python3 main_stretching_postprocessing.py`. Finally, call `python3 plot_fig_{6,7,8,9}.py` to generate the corresponding plot in the manuscript.
 
-<h3>Highly resolved single cells</h3>
+### Highly resolved single cells
 
 **Folder:** `./highres_singlecell`
 
