@@ -1,0 +1,4 @@
+python3 main_stretching_Allen_Cahn_Hilliard.py run_elastic_NH.json
+python3 main_stretching_Allen_Cahn_Hilliard.py run_elastic_NH_plane_strain.json
+python3 main_stretching_Allen_Cahn_Hilliard.py run_elastic_gent.json
+python3 main_stretching_Allen_Cahn_Hilliard.py run_elastic_gent_plane_strain.json

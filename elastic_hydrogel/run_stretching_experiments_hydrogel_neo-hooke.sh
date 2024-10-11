@@ -1,0 +1,4 @@
+python3 main_stretching_Allen_Cahn_Hilliard.py run_hydro_NH_AC_005.json
+python3 main_stretching_Allen_Cahn_Hilliard.py run_hydro_NH_AC_05.json
+python3 main_stretching_Allen_Cahn_Hilliard.py run_hydro_NH_AC_50.json
+
