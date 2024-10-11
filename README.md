@@ -20,6 +20,8 @@ coupled system and present results on the influence of strain-stiffening, layer 
 on the shape of the layers and on the cell patterns. In particular, we discuss alignment of cells and chain formation under
 varying conditions.
 
+<img src="media/gent_coarse.png" width="50%">
+
 **Dependencies:** Requires Python with legacy FEniCS 2019.1.0 and some standard libraries for plotting and data processing.
 
 <h3>Hydrogel and cell coupling</h3>
