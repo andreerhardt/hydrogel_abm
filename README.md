@@ -8,6 +8,7 @@ by *A. H. Erhardt, D. Peschka, C. Dazzi, L. Schmeller, A. Petersen, S. Checa, A.
 
 published in Computational Mechanics (Springer, online 2024). [10.1007/s00466-024-02536-7](https://doi.org/10.1007/s00466-024-02536-7).
 
+The preprint is available here in bioRxiv here [10.1101/2023.12.21.572812](https://doi.org/10.1101/2023.12.21.572812).
 
 **Abstract:**  We derive a three-dimensional hydrogel model as a two-phase system of a fibre network and liquid solvent, where the
 nonlinear elastic network accounts for the strain-stiffening properties typically encountered in biological gels. We use this
